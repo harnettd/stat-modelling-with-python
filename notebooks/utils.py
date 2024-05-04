@@ -4,7 +4,10 @@ import requests
 
 def get(url: str, params: dict, headers: dict) -> requests.Response | None:
     """
-    Get requests
+    Return the response from a get request (or None if the request fails).
+
+    Use Response.raise_for_status() within a try-except-else block to print
+    an error message rather than raise an exception.
     """
     try:
         response = requests.get(url, params=params, headers=headers)
