@@ -69,7 +69,7 @@ In summary, of all the potential predictors I investigated as being highly corre
 
 Like many projects, the main challenge with this one was trying to decide what analyses were actually worth doing given the time constraints. As noted above, only one of the independent variables I considered turned out to be significant. So, if I were to start again from scratch, I would look for other possible predictors.
 
-Another significant challenge of this project concerned the treatment of outliers. The approach I settled on was to keep outliers in the CityBikes data but drop outliers from the Yelp data. My reasoning was that the CityBikes data (for Santiago, Chile) was a population, not a sample, so sampling biases were not a factor. Also, none of the CityBikes outliers suggested errors in data collection of entry. 
+Another significant challenge of this project concerned the treatment of outliers. The approach I settled on was to keep outliers in the CityBikes data but drop outliers from the Yelp data. My reasoning was that the CityBikes data (for Santiago, Chile) was a population, not a sample, so sampling biases were not a factor. Also, none of the CityBikes outliers suggested errors in data collection of entry. The Yelp data, on the other hand, definitely represents a sample of people's opinion on the businesses in question.
 
 ## Future Goals
 
